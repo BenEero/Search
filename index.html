@@ -2,13 +2,32 @@
 <html lang="en">
     <head>
         <title>Search</title>
-        style 
+        <style>
+            input {
+                font-size: large;
+                border-radius: 30px;
+                width: 400px;
+                height: 30px
+            }
+
+            div {
+                align-items: center;
+            }
+        </style>
 
     </head>
     <body>
-        <form action="https://www.google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
-        </form>
+        <nav>
+            <ul>
+                <li><a href="images.html">Images</a></li>
+                <li><a href="https://www.amazon.com/">Advanced</a> </li>
+            </ul>
+        </nav>
+        <div align="center" align-self="start">
+            <form action="https://www.google.com/search">
+                <input style="text-align: center;" type="text" name="q" placeholder="Search Google or type a URL">
+                <input style="width: 170px; " type="submit" value="Google Search" >
+            </form>
+        </div>
     </body>
 </html>
